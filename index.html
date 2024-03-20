@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Netflix</title>
+    <link rel="stylesheet" href="home_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__left">
+            <a href="index.html">
+                <img class="navbar__logo" src="./N_logo.jpg" alt="Netflix Logo">
+            </a>
+        </div>
+        <div class="navbar__right">
+            <img src="./Netflix-avatar.png" class="navbar__avatar" alt="User Avatar">
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <header class="banner" id="banner">
+        <div class="banner__contents" id="banner__contents">
+            <h1 class="banner__title" id="banner__title"></h1>
+            <div class="banner__buttons" id="banner__buttons">
+                <button class="banner__button" id="banner__button">Play</button>
+                <button class="banner__button" id="banner__button">My List</button>
+            </div>
+            <p class="banner__description" id="banner__description"></p>
+        </div>
+        <div class="banner__fadeBottom" id="banner__fadeBottom"></div>
+    </header>
+
+    <!-- Row -->
+    <div class="row" id="headrow">
+        <h2 class="row__title" id="row__title"></h2>
+        <div class="row__posters" id="row__posters"></div>
+    </div>
+    <!-- <script>
+        window.addEventListener("scroll",function(){
+            var nav = document.querySelector(".nav");
+            nav.classList.toggle("active",window.scrollY > 0);
+            })
+    </script> -->
+    
+</body>
+</html>
